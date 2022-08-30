@@ -1,6 +1,6 @@
-NAME			=	zombie
+NAME			=	Fixed
 
-SRC				=	Zombie.cpp main.cpp newZombie.cpp randomChump.cpp
+SRC				=	main.cpp Fixed.cpp
 COMPILED_DIR	=	./compiled_sources
 OBJS			=	$(addprefix $(COMPILED_DIR)/,$(SRC:.cpp=.o))
 
