@@ -1,0 +1,3 @@
+/Users/mathismartini/CLionProjects/CPP_Pool/cmake-build-debug/CMakeFiles/CPP_Pool.dir
+/Users/mathismartini/CLionProjects/CPP_Pool/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mathismartini/CLionProjects/CPP_Pool/cmake-build-debug/CMakeFiles/rebuild_cache.dir

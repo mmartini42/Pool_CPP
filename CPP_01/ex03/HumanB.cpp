@@ -10,8 +10,9 @@ HumanB::HumanB(std::string name) : _name(name){
 HumanB::~HumanB() {
 }
 
-void	HumanB::attack() const {
-	std::cout << this->_name << " attacks with their " << _weapon->getType() << std::endl;
+void	HumanB::attack()  {
+	std::string weapon = _weapon->getType();
+	std::cout << this->_name << " attacks with their " << weapon << std::endl;
 }
 
 void	HumanB::setWeapon(Weapon &gun) {

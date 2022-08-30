@@ -16,7 +16,7 @@ public:
 	HumanB( std::string name );
 	~HumanB();
 
-	void	attack() const;
+	void	attack();
 	void	setWeapon( Weapon &gun );
 };
 

@@ -1,5 +1,5 @@
 // Copyright (c) 2022 mathmart <mathmart@42lyon.fr>.
-
+//https://embeddedartistry.com/blog/2018/07/12/simple-fixed-point-conversion-in-c/
 //
 // Created by mathis martini on 30/08/2022.
 //
