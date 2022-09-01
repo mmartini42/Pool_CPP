@@ -73,14 +73,18 @@ uint32_t	ClapTrap::getAttackDamage() const {
 /* **************************************************************************** */
 
 void	ClapTrap::attack(const std::string &target) {
-	std::cout << "Claptrap " + this->_name + " attack " + target + ", causing " << getAttackDamage() << " points of damage!" << std::endl;
+	std::cout << "Claptrap " + this->_name + " attack "
+	<< target + ", causing " << getAttackDamage()
+	<< " points of damage!" << std::endl;
 }
 
 void	ClapTrap::takeDamage(uint32_t amount) {
 	std::cout << "Claptrap take " << amount << " amount of damage" << std::endl;
 
-	if (amount > _energyPoints)
-		_energyPoints = 0;
+	if (amount > _energyPoints) {
+		if (amount - _energyPoints < 0)
+			_energyPoints = 0;
+	}
 	else
 		setEnergyPoints(_energyPoints - amount);
 	std::cout << "ClapTrap has " << getEnergyPoints() << " energy points" << std::endl;
