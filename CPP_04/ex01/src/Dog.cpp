@@ -23,7 +23,7 @@ Dog::Dog(std::string name) : Animal(name), _brain(new Brain) {
 	std::cout << "Dog is created" << std::endl;
  }
 
-Dog::Dog(const Dog &src) : Animal("Dog"), _brain(nullptr) {
+Dog::Dog(const Dog &src) : Animal("Dog"), _brain(NULL) {
 	*this = src;
 	std::cout << "Dog is copied" << std::endl;
 }

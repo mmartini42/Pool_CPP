@@ -20,7 +20,7 @@ Cat::Cat(std::string const& name) : Animal(name) {
 	std::cout << "Cat constructor has been called" << std::endl;
 }
 
-Cat::Cat(const Cat &src) : Animal("Cat"), _brain(nullptr) {
+Cat::Cat(const Cat &src) : Animal("Cat"), _brain(NULL) {
 	*this = src;
 	std::cout << "Copy constructeur of cat has been called" << std::endl;
 }
