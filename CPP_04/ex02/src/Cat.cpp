@@ -16,9 +16,9 @@ Cat::Cat() : _brain(new Brain) {
 	std::cout << "Cat constructor has been called" << std::endl;
 }
 
-Cat::Cat(const Cat &src) : _brain(nullptr) {
+Cat::Cat(const Cat &src) : _brain(NULL) {
 	*this = src;
-	std::cout << "Copy constructeur of cat has been called" << std::endl;
+	std::cout << "Copy constructor of cat has been called" << std::endl;
 }
 
 Cat::~Cat() {

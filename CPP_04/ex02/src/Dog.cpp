@@ -17,7 +17,7 @@ Dog::Dog() : _brain(new Brain) {
 	std::cout << "Dog is created" << std::endl;
 }
 
-Dog::Dog(const Dog &src) : _brain(nullptr) {
+Dog::Dog(const Dog &src) : _brain(NULL) {
 	*this = src;
 	std::cout << "Dog is copied" << std::endl;
 }
